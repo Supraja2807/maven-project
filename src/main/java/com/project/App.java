@@ -12,7 +12,7 @@ public class App {
         if (in_user.equals(username) && in_pwd.equals(password)) {
             return 1;
         } else {
-            return 1;
+            return 0;
         }
     }
 }

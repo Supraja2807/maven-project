@@ -10,9 +10,9 @@ public class App {
         String password = rb.getString("password");
 
         if (in_user.equals(username) && in_pwd.equals(password)) {
-            return 1;
-        } else {
             return 0;
+        } else {
+            return 1;
         }
     }
 }
